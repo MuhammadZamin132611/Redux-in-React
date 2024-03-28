@@ -1,1 +1,2 @@
 export const ADD_TO_CATR="ADD_TO_CATR"
+export const REMOVE_TO_CATR="REMOVE_TO_CATR"

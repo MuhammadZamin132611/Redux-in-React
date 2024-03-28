@@ -1,4 +1,4 @@
-import {ADD_TO_CATR} from '../constants'
+import {ADD_TO_CATR, REMOVE_TO_CATR} from '../constants'
 
 export const addToCart=(data)=>{
     console.warn("action", data)
@@ -9,9 +9,9 @@ export const addToCart=(data)=>{
 }
 
 
-// export const removeToCart=(data)=>{
-//     return {
-//         type:'REMOVE_TO_CAtR',
-//         data:data
-//     } 
-// }
+export const removeToCart=()=>{
+    console.warn("action")
+    return {
+        type: REMOVE_TO_CATR,
+    } 
+}
