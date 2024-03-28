@@ -44,7 +44,7 @@
 }
 
 .cart-wrapper{
-  height: 100px;
+  height: 175px;
   width: 500px;
   border: 1px solid #ccc;
   margin-left: 10%;
@@ -58,11 +58,28 @@
   height: 70px;
 }
 
-.add-to-cart{
+.add-to-cart i{
   position: absolute;
-  right: 1%;
-  top: 1%;
+  right: 5%;
+  top: 5%;
+  font-size: 42px;
+  color: red;
 }
+
+.cart-count{
+  
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 1;
+  background-color: red;
+  padding: 7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+
 /*  */
 @keyframes App-logo-spin {
   from {
